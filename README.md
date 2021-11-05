@@ -1,7 +1,12 @@
 # Interview starter
 
 Create a responsive form with 3 inputs that will send a request to any endpoint.
-The input fields should be sale price without VAT as an input, VAT rate as a select and sale price with VAT as an input.
+The input fields should be:
+
+- sale price without VAT as a HTML input
+- VAT rate as a HTML select
+- sale price with VAT as a HTML input
+
 These 3 depend on each other, so whenever the user types a sale price without VAT, the sale price with VAT
 should be auto completed (and vice versa).
 
