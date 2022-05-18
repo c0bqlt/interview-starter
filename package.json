@@ -1,7 +1,7 @@
 {
-  "name": "next-with-auth-starter",
+  "name": "interview-starter",
   "version": "0.9.2",
-  "description": "Starter for Next.js projects with authentication",
+  "description": "Interview project for frontend dev at Chess Coders",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 8080",
