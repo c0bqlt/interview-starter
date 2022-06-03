@@ -1,14 +1,15 @@
 # Interview starter
 
-Create a responsive form with 3 inputs that will send a request to any endpoint.
-The input fields should be:
+Create a simple responsive form with 3 form fields that will send a request to any endpoint.
+The form fields should be:
 
 - sale price without VAT as a HTML input
 - VAT rate as a HTML select
 - sale price with VAT as a HTML input
 
-These 3 depend on each other, so whenever the user types a sale price without VAT, the sale price with VAT
-should be auto completed (and vice versa).
+These 3 fields depend on each other. Whenever the user types a sale price without VAT, the sale price with VAT should be updated.
+
+**Extra credit** for the inverse effect: whenever the sale with VAT is updated the sale price without VAT is also updated.
 
 ## Quick start
 
@@ -28,7 +29,7 @@ npm run dev
 
 You can build any file structure you find useful
 
-You can include any external css files in `site.config.js`
+You can include any external libraries in `site.config.js`
 
 You can use Google, Stack Overflow, previously written code, anything you like.
 

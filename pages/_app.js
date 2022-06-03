@@ -5,14 +5,13 @@ import '../css/index.css';
 
 const Root = (props) => {
   const { Component, pageProps } = props;
-  const { sitename, description, resources } = config;
+  const { title, stylesheets } = config;
 
   return (
     <>
       <Head>
-        <title>{sitename}</title>
-        <meta name="description" content={description} />
-        {resources.map((href) => (
+        <title>{title}</title>
+        {stylesheets.map((href) => (
           <link key={href} rel="stylesheet" href={href} />
         ))}
       </Head>
