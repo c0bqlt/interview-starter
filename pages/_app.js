@@ -2,7 +2,9 @@ import React from 'react';
 import Head from 'next/head';
 import * as config from '../site.config';
 import '../css/index.css';
-// import '../css/form.css';
+import { QueryClient, QueryClientProvider} from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
 
 const Root = (props) => {
   const { Component, pageProps } = props;
@@ -17,7 +19,9 @@ const Root = (props) => {
         ))}
         <script src="https://cdn.tailwindcss.com"></script>
       </Head>
-      <Component {...pageProps} />
+      <QueryClientProvider client={queryClient}>
+        <Component {...pageProps} />
+      </QueryClientProvider>
     </>
   );
 };
