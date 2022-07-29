@@ -18,7 +18,6 @@ const PriceWithVat = ({priceWithVat, setValues, values}) => {
                 <input
                 type="number"
                  name="priceWithVat"
-                 placeholder='Price with VAT'
                  className='w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow h-8'
                  value={priceWithVat}
                  onChange={handlePriceWithVatChange}
