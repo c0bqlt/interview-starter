@@ -17,7 +17,7 @@ const VatRate = ({ setValues, values}) => {
                 <span className="font-medium text-slate-700 pb-2 left-0">VAT: <br /></span>
                 <select
                 name='vat'
-                className='w-52 border border-slate-200 rounded-lg px-3 py-3 focus:outline-none focus:border-slate-500 hover:shadow h-8'
+                className='w-52 border border-slate-200 rounded-lg px-3 py-1 focus:outline-none focus:border-slate-500 hover:shadow h-8'
                 onChange={handleVatChange}
                 >
                   <option value={5}>5%</option>
